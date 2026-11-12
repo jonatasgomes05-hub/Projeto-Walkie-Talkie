@@ -382,7 +382,7 @@ int calcularPorcentagem(float tensaoV) {
 }
 
 void simularVU() {
-  static uint32_t挺ultimaLeitura = 0;
+  static uint32_t ultimaLeitura = 0;
   static uint32_t ultimoSorteio = 0;
   static float alvo = 0;
   uint32_t agora = millis();
